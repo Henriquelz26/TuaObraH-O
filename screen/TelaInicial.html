@@ -11,13 +11,14 @@
 <body>
     <header class="cabeca"> 
         <div class="logo">
-            <img id="imagenLogo" src="../assets/LOGOtuaOBRA.png" alt="Logo">
+            <img id="imagenLogo" src="../assets/LOGOtuaOBRABranco.png" alt="Logo">
             <h1>|</h1>
             <h2>Tela Inicial</h2>
         </div>
         <div class="menu">
-            <button class="botao-menu">&#9776</button>
-            <ul class="lista-menu">
+            <button class="botao-menu"><p>&#9776</p> </button>
+            
+            <ul class="lista-menu" onclick="Menu()" id="menuList">
                 <li> <a href="#" >Cadastro de Materiais</a> </li>
                 <li> <a href="#" >Escolha de Materiais</a> </li>
                 <li> <a href="#" >Doar/Receber</a> </li>
@@ -25,6 +26,8 @@
             </ul>
         </div>
     </header>
+
+    <script src="../script/TelaInicial.js"></script>
 </body>
 </html>
 
