@@ -4,7 +4,10 @@ body{
     background-color: whitesmoke;
 }
 
+/*Estilização do cabeçalho*/
 .cabeca{
+    width: 428px;
+    height: 199px;
     background-color: rgb(63, 62, 61) ;
     color: rgb(245, 245, 245);
     font-family: Arial, Helvetica, sans-serif;
@@ -12,30 +15,49 @@ body{
 }
 
 .botao-menu{
-    width: 30px;
-    height: 20px;
+    width: 100px;
+    height: 90px;
     background-color: transparent;
     border: none;
     color: whitesmoke;
+    margin: 50px 30px 0px 210px ;
+}
+.botao-menu{
+    width: 60px;
+    height: 50px;
+
 }
 
 .logo{
-
+    
     display: flex;
 }
 .logo #imagenLogo{
+    width: 70px;
+    height: 60px;
     
 }
 
 .lista-menu{ 
+    display: none;
+    background-color: rgb(181, 181, 181);
     list-style: none;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 30px;
+    
+}
+
+li{
+    padding: 2px;    
+    stroke: black;
+    stroke-width: 2px;
 }
 
 a{
-    color: whitesmoke;
+    
+    text-decoration: none;
+    color: black;
 }
 
 ul{
