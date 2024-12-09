@@ -2,6 +2,7 @@ body{
     width: 428px;
     height: 926px;
     background-color: whitesmoke;
+    flex-direction: column;
 }
 
 /*Estilização do cabeçalho*/
@@ -15,51 +16,74 @@ body{
 }
 
 .botao-menu{
-    width: 100px;
-    height: 90px;
+    width: 25px;
+    height: 25px;
     background-color: transparent;
     border: none;
     color: whitesmoke;
-    margin: 50px 30px 0px 210px ;
+    margin: 50px 40px 0px 100px ;
 }
-.botao-menu{
-    width: 60px;
-    height: 50px;
-
+.botao-menu p{
+    font-size: 25px;
 }
-
+#linha-logo{
+    width: 1px;
+    height: 42px;
+    border: 1px solid whitesmoke;
+    background-color: white;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.logo h2{
+   margin-top: 10px;
+    font-size: 22px;
+}
 .logo{
-    
+    width: 5000px;
+    height: 20px;
+    margin: 50px 0px 0px 10px ;
     display: flex;
 }
 .logo #imagenLogo{
-    width: 70px;
-    height: 60px;
+    width: 60px;
+    height: 50px;
+    margin-top: -5px;
     
 }
 
 .lista-menu{ 
-    display: none;
+    /* display: none; */
     background-color: rgb(181, 181, 181);
-    list-style: none;
+    /* list-style: none; */
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 30px;
     
 }
 
-li{
+.menu li{
     padding: 2px;    
     stroke: black;
     stroke-width: 2px;
+    border:1px solid black;
+    
 }
 
 a{
-    
     text-decoration: none;
     color: black;
 }
 
-ul{
-    list-style-type: none;
+.menu li ul{
+    position:absolute;
+    top:25px;
+    left:0;
+    background-color:#fff;
+    display:none;
+    /* list-style-type: none; */
+}
+
+@media (max-width: 600px) {
+
+    
 }

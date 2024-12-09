@@ -6,17 +6,19 @@
     <title>Tua Obra</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/TelaInicial.css">
+    <script defer src="../script/TelaInicial.js"></script>
     
 </head>
 <body>
     <header class="cabeca"> 
         <div class="logo">
             <img id="imagenLogo" src="../assets/LOGOtuaOBRABranco.png" alt="Logo">
-            <h1>|</h1>
+            <div id="linha-logo"></div>
             <h2>Tela Inicial</h2>
         </div>
+        <nav class="nav">
         <div class="menu">
-            <button class="botao-menu"><p>&#9776</p> </button>
+            <button class="botao-menu">Menu<span class="hamburger"></span></button>
             
             <ul class="lista-menu" onclick="Menu()" id="menuList">
                 <li> <a href="#" >Cadastro de Materiais</a> </li>
@@ -24,9 +26,9 @@
                 <li> <a href="#" >Doar/Receber</a> </li>
                 
             </ul>
-        </div>
+        </nav>
+    </nav>
     </header>
 
-    <script src="../script/TelaInicial.js"></script>
 </body>
 </html>

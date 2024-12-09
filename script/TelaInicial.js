@@ -1,13 +1,15 @@
-//função para alternar o botão menu entre visivel e invisivel
+const nav = document.querySelector(".nav")
+const botaoMenu = document.querySelector(".botao-menu")
+const listaMenu = document.querySelector(".lista-menu")
 
-function Menu(){
-
-var menu = document.getElementByid("menuList");
-
-    if(menu.style.display === "none"){
-        menu.style.display = "block";
-
-    }else{
-        menu.style.display = "none";
-    }
+function handleButtonClick(event){
+    
+    if  (event.type === "touchstart") event.preventDefault()
+    nav.classList.toggle("active")
+    handleClickOutside(listaMenu, () => {
+        nav.classList.remove("active")
+    });
 }
+
+botaoMenu.addEventListener("click", handleButtonClick);
+botaoMenu.addEventListener("touchstart", handleButtonClick);
