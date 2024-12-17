@@ -1,0 +1,183 @@
+body{
+    width: 428px;
+    height: 926px;
+    background-color: whitesmoke;
+}
+
+/*Estilização do cabeçalho*/
+.cabeca{
+    width: 428px;
+    height: 199px;
+    background-color: rgb(63, 62, 61) ;
+    color: rgb(245, 245, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+.botao-menu{
+    width: 100px;
+    height: 90px;
+    background-color: transparent;
+    border: none;
+    color: whitesmoke;
+    margin: 50px 30px 0px 210px ;
+}
+.botao-menu{
+    width: 60px;
+    height: 50px;
+
+}
+
+.logo{
+    
+    display: flex;
+}
+.logo #imagenLogo{
+    width: 70px;
+    height: 60px;
+    
+}
+
+.lista-menu{ 
+    display: none;
+    background-color: rgb(181, 181, 181);
+    list-style: none;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    
+}
+
+li{
+    padding: 2px;    
+    stroke: black;
+    stroke-width: 2px;
+}
+
+a{
+    
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style-type: none;
+}
+/*corpo da tela*/
+
+.preta{
+    height: 10px;
+    width: 37.5px;
+    background-color:#262626;
+}
+
+.amarela{
+    height: 10px;
+    width: 37.5px;
+    background-color: #C9B713;
+}
+
+.linha{
+    display: flex;
+    width: 428px;
+}
+
+.foot{
+    width: 428px;
+    height: 199px;
+    background-color: rgb(63, 62, 61);
+}
+
+main{
+    width: 428px;
+    height: 605px;
+    background-color: whitesmoke;
+}
+
+.corpo h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 35px;
+    text-decoration: underline;
+    color: #262626;
+}
+
+.corpo h2{
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #262626;
+    padding-top: 25px;
+    margin-left: 30px;
+    
+}
+
+.contato{
+font-family: sans-serif;
+color: whitesmoke;
+font-size:large;
+padding-top: 35px;
+padding-left: 20px;
+}
+
+.facebook{
+width: 40px;
+height: 40px;
+margin-left: 20px;
+margin-top: 10px;
+}
+
+.instagram{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.whatssap{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.termos{
+    font-family: sans-serif;
+    color: whitesmoke;
+    font-size:large;
+    margin-left: 20px;
+}
+
+.feedback{
+    font-family: sans-serif;
+    color: whitesmoke;
+    font-size:large;
+    margin-left: 50px;
+}
+
+.ajuda{
+    font-family: sans-serif;
+    color: whitesmoke;
+    font-size:large;
+    margin-left: 50px;
+}
+
+.info{
+    display: flex;
+    margin-top: 30px;
+}
+
+.FotoPerfil{
+    width: 150px;
+    height: 150px;
+    margin-left: 125px;
+    margin-top: 15px;
+}
+.caixa {
+            top: -40px;
+            left: 20px;
+            width: 395px;
+            height: 560px;
+            margin-top: 50px;
+            margin-left: 15px;
+            background-color: rgba(169, 169, 169, 0.3); /* Cinza claro com transparência */
+            border: 2px solid rgba(169, 169, 169, 0.6); /* Borda em cinza mais forte */
+}
