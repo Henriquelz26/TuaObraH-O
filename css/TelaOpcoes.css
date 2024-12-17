@@ -233,3 +233,76 @@ main{
     margin-left: 80px;
     margin-top:-52px;
 }
+
+/*Footer*/
+
+
+.contato{
+font-family: sans-serif;
+color: whitesmoke;
+font-size:large;
+padding-top: 35px;
+padding-left: 20px;
+}
+
+.facebook{
+width: 40px;
+height: 40px;
+margin-left: 20px;
+margin-top: 10px;
+}
+
+.instagram{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.whatssap{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.termos{
+    font-family: sans-serif;
+    color: whitesmoke;
+    font-size:large;
+    margin-left: 20px;
+}
+
+.feedback{
+    font-family: sans-serif;
+    color: whitesmoke;
+    font-size:large;
+    margin-left: 50px;
+}
+
+.ajuda{
+    font-family: sans-serif;
+    color: whitesmoke;
+    font-size:large;
+    margin-left: 50px;
+}
+
+.info{
+    display: flex;
+    margin-top: 30px;
+}
+
+.FotoPerfil{
+    width: 150px;
+    height: 150px;
+    margin-left: 125px;
+    margin-top: 15px;
+}
+.caixa {
+            top: -40px;
+            left: 20px;
+            width: 395px;
+            height: 560px;
+            margin-top: 50px;
+            margin-left: 15px;
+            background-color: rgba(169, 169, 169, 0.3); /* Cinza claro com transparência */
+            border: 2px solid rgba(169, 169, 169, 0.6); /* Borda em cinza mais forte */
+}
