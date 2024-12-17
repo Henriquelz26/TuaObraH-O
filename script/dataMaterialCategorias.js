@@ -1,0 +1,1 @@
+export const tipos = ["Madeiras", "Pedras", "Vidros", "Cerâmicas"];

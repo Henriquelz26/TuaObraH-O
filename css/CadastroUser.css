@@ -2,14 +2,8 @@ body{
     width: 428px;
     height: 926px;
     background-color: whitesmoke;
-    flex-direction: column;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 /*Estilização do cabeçalho*/
 
 
@@ -97,3 +91,58 @@ a{
     /* list-style-type: none; */
 }
 
+/*corpo da tela*/
+
+.preta{
+    height: 10px;
+    width: 37.5px;
+    background-color:#262626;
+}
+
+.amarela{
+    height: 10px;
+    width: 37.5px;
+    background-color: #C9B713;
+}
+
+.linha{
+    display: flex;
+    width: 428px;
+}
+
+.foot{
+    width: 428px;
+    height: 199px;
+    background-color: rgb(63, 62, 61);
+}
+
+main{
+    width: 428px;
+    height: 605px;
+    background-color: whitesmoke;
+}
+
+.corpo h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 35px;
+    text-decoration: underline;
+    color: #262626;
+}
+
+.corpo h2{
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #262626;
+    padding-top: 25px;
+    margin-left: 30px;
+    
+}
+
+.inputnome{
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 350px;
+    height: 20px;
+}

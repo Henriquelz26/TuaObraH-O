@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tua Obra</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/CadastroMaterial.css">
+    <script defer src="../script/menuBurguer.js"></script>
+    
+</head>
+<body>
+    <!--cabeçalho-->
+    <header class="cabeca"> 
+        <div class="logo">
+            <img id="imagenLogo" src="../assets/LOGOtuaOBRABranco.png" alt="Logo">
+            <div id="linha-logo"></div>
+            <h2>Cadstro de Material</h2>
+        </div>
+        <nav class="nav">
+        
+            <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+            
+            
+            <ul class="listaMenu" id="menuList">
+                <li> <a href="TelaInicial.html" >Tela Inicial</a> </li>
+                <li> <a href="telaLogin.html" >Login</a> </li>
+                <li> <a href="TelaOpcoes.html" >Doar/Receber</a> </li>
+                
+            </ul>
+        </nav>
+    </header>
+
+
+<!--corpo da tela-->
+
+    <main>
+    <div class="linha">
+        <div class="preta"></div>
+        <div class="amarela"></div>
+        <div class="preta"></div>
+        <div class="amarela"></div>
+        <div class="preta"></div>
+        <div class="amarela"></div>
+        <div class="preta"></div>
+        <div class="amarela"></div>
+        <div class="preta"></div>
+        <div class="amarela"></div>
+        <div class="preta"></div>
+        <div class="amarela"></div>
+    </div>
+    <div class="corpo">
+        <h1>Cadastro do Material</h1>
+        <h2>Qual o Material?</h2>
+        <input class="inputNome">
+<! -- Combo Box -- >
+        <h2>Selecione a Categoria:</h2>
+        <div class="divCategoria">    
+            <select id=cbCategory>
+                <!-- <option value="" >Selecione a Categoria</option> -->
+                <option value="ce" selected="selected" >Cerâmicas</option>
+                <option value="ma" >Madeiras</option>
+                <option value="pe" >Pedras</option>
+                <option value="vi" >Vidros</option>
+            </select>
+        <div class=""></div>
+<! -- Combo box -- >
+        <h2 id="QttTitulo">Quantidade:</h2>
+        <input class="inputQtt">
+        <h2 id="DescTitulo">Descrição:</h2>
+        <input class="inputDescricao">
+        
+        
+  </div>
+</main>
+<footer>
+    <div class="foot"></div>
+</footer>
+<script src="../script/CadastroMaterial.js" type="module"></script>
+</body>
+</html>
