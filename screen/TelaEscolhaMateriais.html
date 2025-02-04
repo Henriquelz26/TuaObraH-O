@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,95 +9,117 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/TelaEscolhaMateriais.css">
     <script defer src="../script/menuBurguer.js"></script>
+    <script defer src="../script/carrossel.js" ></script>
 </head>
+
 <body>
-    <header class="cabeca"> 
+    <header class="cabeca">
         <div class="logo">
             <a href="TelaInicial.html"> <img id="imagenLogo" src="../assets/LOGOtuaOBRABranco.png" alt="Logo"></a>
             <div id="linha-logo"></div>
             <h2>Escolha de Material</h2>
         </div>
         <nav class="nav">
-        
+
             <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
-            
-            
+
+
             <ul class="listaMenu" id="menuList">
-                <li> <a href="CadastroMaterial.html" >Cadastro de Materiais</a> </li>
-                <li> <a href="telaLogin.html" >Login</a> </li>
-                <li> <a href="TelaOpcoes.html" >Doar/Receber</a> </li>
-                <li> <a href="TelaInicial.html" >Tela Inicial</a> </li>
-                
+                <li> <a href="CadastroMaterial.html">Cadastro de Materiais</a> </li>
+                <li> <a href="telaLogin.html">Login</a> </li>
+                <li> <a href="TelaOpcoes.html">Doar/Receber</a> </li>
+                <li> <a href="../Index.html">Tela Inicial</a> </li>
+
             </ul>
         </nav>
     </header>
 
 
     <main>
-    <div class="linha">
-        <div class="preta"></div>
-        <div class="amarela"></div>
-        <div class="preta"></div>
-        <div class="amarela"></div>
-        <div class="preta"></div>
-        <div class="amarela"></div>
-        <div class="preta"></div>
-        <div class="amarela"></div>
-        <div class="preta"></div>
-        <div class="amarela"></div>
-        <div class="preta"></div>
-        <div class="amarela"></div>
-    </div>
-    <div class="corpo">
-        <h1 class="escolha">Escolha de Materiais</h1>
-
-        <button class="btnMadeira">
-            <div class="decoraçãoMadeira">
-                <img id="madeiraimg" src="../assets/madeira.png" alt="madeira"> 
-                <div class="linhaMadeira"></div>
-                <h1>Madeiras</h1>
-            </div>
-        </button>
-
-        <button class="btnPedras">
-            <div class="decoraçãoPedras">
-                <img id="pedrasimg" src="../assets/pedra.png" alt="pedras"> 
-                <div class="linhaPedras"></div>
-                <h1>Pedras</h1>
-            </div>
-
-        </button>
-        <button class="btnVidros">
-            <div class="decoraçãoVidros">
-                <img id="vidrosimg" src="../assets/vidro.png" alt="vidros"> 
-                <div class="linhavidros"></div>
-                <h1>Vidros</h1>
-            </div>
-        </button>
-
-        <button class="btnCeramicas">
-            <div class="decoraçãoCeramicas">
-                <img id="ceramicasimg" src="../assets/ceramicanovo.png" alt="ceramicas"> 
-                <div class="linhaCeramicas"></div>
-                <h1>Ceramicas</h1>
-            </div>
-        </button>
-      
-    </div>
-</main>
-<footer>
-    <div class="foot">
-        <h1 class="contato">Sobre nós:</h1>
-        <a href="#" ><img class="facebook" src="../assets/ic--baseline-facebook.png" alt=""></a>
-        <a href="#" ><img class="instagram" src="../assets/mdi--instagram.png" alt=""></a>
-        <a href="#" ><img class="whatssap" src="../assets/ic--baseline-whatsapp.png" alt=""></a>
-        
-        <div class="info">
-        <h1 class="termos">Termos</h1>
-        <h1 class="feedback">Enviar Feedback</h1>
-        <h1 class="ajuda">Ajuda</h1>
+        <div class="linha">
+            <div class="preta"></div>
+            <div class="amarela"></div>
+            <div class="preta"></div>
+            <div class="amarela"></div>
+            <div class="preta"></div>
+            <div class="amarela"></div>
+            <div class="preta"></div>
+            <div class="amarela"></div>
+            <div class="preta"></div>
+            <div class="amarela"></div>
+            <div class="preta"></div>
+            <div class="amarela"></div>
         </div>
-    </div>
-</footer>
+
+
+        <div class="carrossel">
+            <div class="slides" id="slides">
+                <div class="slide">
+                    <img class="img1" src="images (1).jpg" alt="Informação sobre Reciclagem">
+                </div>
+                <div class="slide">
+                    <img src="" alt="Mais Informação sobre reciclagem">
+                </div>
+                <div class="slide">
+                    <img src="" alt="outras informações">
+                </div>
+            </div>
+            <div class="seta">
+                <button onclick="voltaSlide()">❮</button>
+                <button onclick="proxSlide()">❯</button>
+            </div>
+            </div>
+            <div class="corpo">
+                <h1 class="escolha">Escolha de Materiais</h1>
+
+                <button class="btnMadeira">
+                    <div class="decoraçãoMadeira">
+                        <img id="madeiraimg" src="../assets/madeira.png" alt="madeira">
+                        <div class="linhaMadeira"></div>
+                        <h1>Madeiras</h1>
+                    </div>
+                </button>
+
+                <button class="btnPedras">
+                    <div class="decoraçãoPedras">
+                        <img id="pedrasimg" src="../assets/pedra.png" alt="pedras">
+                        <div class="linhaPedras"></div>
+                        <h1>Pedras</h1>
+                    </div>
+
+                </button>
+                <button class="btnVidros">
+                    <div class="decoraçãoVidros">
+                        <img id="vidrosimg" src="../assets/vidro.png" alt="vidros">
+                        <div class="linhavidros"></div>
+                        <h1>Vidros</h1>
+                    </div>
+                </button>
+
+                <button class="btnCeramicas">
+                    <div class="decoraçãoCeramicas">
+                        <img id="ceramicasimg" src="../assets/ceramicanovo.png" alt="ceramicas">
+                        <div class="linhaCeramicas"></div>
+                        <h1>Ceramicas</h1>
+                    </div>
+                </button>
+
+            </div>
+    </main>
+    <footer>
+        <div class="foot">
+            <h1 class="contato">Sobre nós:</h1>
+            <a href="#"><img class="facebook" src="../assets/ic--baseline-facebook.png" alt=""></a>
+            <a href="#"><img class="instagram" src="../assets/mdi--instagram.png" alt=""></a>
+            <a href="#"><img class="whatssap" src="../assets/ic--baseline-whatsapp.png" alt=""></a>
+
+            <div class="info">
+                <h1 class="termos">Termos</h1>
+                <h1 class="feedback">Enviar Feedback</h1>
+                <h1 class="ajuda">Ajuda</h1>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>

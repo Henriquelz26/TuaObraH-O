@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/CadastroMaterial.css">
     <script defer src="../script/menuBurguer.js"></script>
+    <script defer src="../script/carrossel.js" ></script>
     
 </head>
 <body>
@@ -24,7 +25,7 @@
             
             
             <ul class="listaMenu" id="menuList">
-                <li> <a href="TelaInicial.html" >Tela Inicial</a> </li>
+                <li> <a href="../Index.html" >Tela Inicial</a> </li>
                 <li> <a href="telaLogin.html" >Login</a> </li>
                 <li> <a href="TelaOpcoes.html" >Doar/Receber</a> </li>
                 
@@ -50,6 +51,23 @@
         <div class="preta"></div>
         <div class="amarela"></div>
     </div>
+    <div class="carrossel">
+        <div class="slides" id="slides">
+            <div class="slide">
+                <img class="img1" src="images (1).jpg" alt="Informação sobre Reciclagem">
+            </div>
+            <div class="slide">
+                <img src="" alt="Mais Informação sobre reciclagem">
+            </div>
+            <div class="slide">
+                <img src="" alt="outras informações">
+            </div>
+        </div>
+        <div class="seta">
+            <button onclick="voltaSlide()">❮</button>
+            <button onclick="proxSlide()">❯</button>
+        </div>
+    </div>
     <div class="corpo">
         <h1>Cadastro do Material</h1>
         <h2>Qual o Material?</h2>
@@ -72,6 +90,9 @@
         <input class="inputDescricao">
         
         
+  </div>
+  <div class="btnCadastroMaterial">
+    <button id="btnCadastro" onclick="salvarDados()">Cadastrar</button>
   </div>
 </main>
 <footer>

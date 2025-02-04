@@ -5,25 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tua Obra</title>
     <link rel="stylesheet" href="../css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="../css/Perfil.css">
-    
+    <script defer src="../script/menuBurguer.js"></script>
+    <script src="../script/script.js"></script>
+    <script defer src="../script/carrossel.js" ></script>
 </head>
 <body>
+    <!-- cabeçalho -->
     <header class="cabeca"> 
         <div class="logo">
             <a href="TelaInicial.html"> <img id="imagenLogo" src="../assets/LOGOtuaOBRABranco.png" alt="Logo"></a>
-            <h1>|</h1>
-            <h2>Tela Perfil Usuário</h2>
+            <div id="linha-logo"></div>
+            <h2>Login</h2>
         </div>
-        <div class="menu">
-            <button class="botao-menu">&#9776</button>
-            <ul class="lista-menu">
-                <li> <a href="#" >Cadastro de Materiais</a> </li>
-                <li> <a href="#" >Escolha de Materiais</a> </li>
-                <li> <a href="#" >Doar/Receber</a> </li>
+        <nav class="nav">
+        
+            <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+            
+            
+            <ul class="listaMenu" id="menuList">
+                <li> <a href="CadastroMaterial.html" >Cadastro de Materiais</a> </li>
+                <li> <a href="../Index.html" >Tela Inicial</a> </li>
+                <li> <a href="TelaOpcoes.html" >Doar/Receber</a> </li>
+                
             </ul>
-        </div>
+        </nav>
     </header>
+    <!-- corpo da tela -->
     <main>
     <div class="linha">
         <div class="preta"></div>
@@ -39,6 +48,27 @@
         <div class="preta"></div>
         <div class="amarela"></div>
     </div>
+    <!-- aqui é o carrossel -->
+    
+
+        <div class="carrossel">
+            <div class="slides" id="slides">
+                <div class="slide">
+                    <img class="img1" src="images (1).jpg" alt="Informação sobre Reciclagem">
+                </div>
+                <div class="slide">
+                    <img src="" alt="Mais Informação sobre reciclagem">
+                </div>
+                <div class="slide">
+                    <img src="" alt="outras informações">
+                </div>
+            </div>
+            <div class="seta">
+                <button onclick="voltaSlide()">❮</button>
+                <button onclick="proxSlide()">❯</button>
+            </div>
+        </div>
+    
     <div class="corpo">
         <div class="caixa">
         <img class="FotoPerfil" src="../assets/qlementine-icons--user-16.png" alt="">

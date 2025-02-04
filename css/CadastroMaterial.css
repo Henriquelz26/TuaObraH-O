@@ -94,7 +94,54 @@ a{
 }
 
 /*corpo da tela*/
+.carrossel {
+    position: relative;
+    width: 428px; /* Tamanho pequeno */
+    height: 100px;
+    overflow: hidden; /* esconde qualquer conteúdo que ultrapasse os limites do elemento*/
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
 
+.slides {
+    display: flex;
+    width: 300%; /* 3 imagens */
+    transition: transform 0.5s ease-in-out; /*cria uma animação suave de 0,5 segundos para transformação*/
+}
+
+.slide {
+    width: 100%;
+    flex-shrink: 0; /* isso daqui ta impedindo o encolhimento do item*/
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /*Usado pra ajustar imagem dentro de algo preenchendo todo o espaço disponível*/
+}
+
+/* Botões de navegação */
+.seta {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.seta button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;    /* cria uma maozinha quando tu passa o mouse na nav */
+    border-radius: 50%;
+    transition: background 0.3s;  /* tempo de mudança de background */
+}
+
+.seta button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
 .preta{
     height: 10px;
     width: 37.5px;
@@ -113,6 +160,7 @@ a{
 }
 
 .foot{
+    margin-top: 120px;
     width: 428px;
     height: 199px;
     background-color: rgb(63, 62, 61);
@@ -188,7 +236,16 @@ main{
     width: 350px;
     height: 120px;
 }
-
+.btnCadastroMaterial #btnCadastro{
+    width: 250px;
+    height: 50px;
+    font-size: xx-large;
+    margin-left: 140px;
+    margin-top: 300px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color:#C9B713;
+}
 /*Footer*/
 
 

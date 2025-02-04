@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/TelaOpcoes.css">
     <script defer src="../script/menuBurguer.js"></script>
+    <script defer src="../script/carrossel.js" ></script>
 </head>
 <body>
     <header class="cabeca"> 
@@ -24,7 +25,7 @@
             <ul class="listaMenu" id="menuList">
                 <li> <a href="CadastroMaterial.html" >Cadastro de Materiais</a> </li>
                 <li> <a href="telaLogin.html" >Login</a> </li>
-                <li> <a href="TelaInicial.html" >Tela Inicial</a> </li>
+                <li> <a href="../Index.html" >Tela Inicial</a> </li>
                 
             </ul>
         </nav>
@@ -45,6 +46,26 @@
         <div class="preta"></div>
         <div class="amarela"></div>
     </div>
+    
+
+        <div class="carrossel">
+            <div class="slides" id="slides">
+                <div class="slide">
+                    <img class="img1" src="images (1).jpg" alt="Informação sobre Reciclagem">
+                </div>
+                <div class="slide">
+                    <img src="" alt="Mais Informação sobre reciclagem">
+                </div>
+                <div class="slide">
+                    <img src="" alt="outras informações">
+                </div>
+            </div>
+            <div class="seta">
+                <button onclick="voltaSlide()">❮</button>
+                <button onclick="proxSlide()">❯</button>
+            </div>
+        </div>
+    
     <div class="corpo">
         <h1 class="deseja">O que você deseja?</h1>
 
@@ -54,7 +75,7 @@
                 
                 <img id="receber" src="../assets/Receber.webp" alt="receber"> 
                 <div class="linhaReceber"></div>
-                <h1>Receber</h1>
+                <a href="TelaEscolhaMateriais.html"><h1>Receber</h1></a>
                 
             </div>
         </button>

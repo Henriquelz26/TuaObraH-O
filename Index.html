@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tua Obra</title>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/TelaInicial.css">
-
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/TelaInicial.css">
     <script defer src="../script/menuBurguer.js"></script>
+    <script defer src="../script/carrossel.js" ></script>
     
 
 
@@ -27,9 +27,9 @@
             
             
             <ul class="listaMenu" id="menuList">
-                <li> <a href="CadastroMaterial.html" >Cadastro de Materiais</a> </li>
-                <li> <a href="telaLogin.html" >Login</a> </li>
-                <li> <a href="TelaOpcoes.html" >Doar/Receber</a> </li>
+                <li> <a href="./screen/CadastroMaterial.html" >Cadastro de Materiais</a> </li>
+                <li> <a href="./screen/telaLogin.html" >Login</a> </li>
+                <li> <a href="./screen/TelaOpcoes.html" >Doar/Receber</a> </li>
                 
             </ul>
         </nav>
@@ -60,6 +60,27 @@
                     <div class="preta"></div>
                     <div class="amarela"></div>
                 </div>
+                
+
+                    <div class="carrossel">
+                        <div class="slides" id="slides">
+                            <div class="slide">
+                                <img class="img1" src="images (1).jpg" alt="Informação sobre Reciclagem">
+                            </div>
+                            <div class="slide">
+                                <img src="" alt="Mais Informação sobre reciclagem">
+                            </div>
+                            <div class="slide">
+                                <img src="" alt="outras informações">
+                            </div>
+                        </div>
+                        <div class="seta">
+                            <button onclick="voltaSlide()">❮</button>
+                            <button onclick="proxSlide()">❯</button>
+                        </div>
+                    </div>
+                
+            
                 <div class="corpo">
                     <h1 class="Conta">Tem uma Conta?</h1>
                     <div class="logoFrase">
@@ -71,7 +92,7 @@
                         <div class="decoraçãoCadastrar">
                             <img id="Cadastrarimg" src="../assets/register-removebg-preview.png" alt="cadastrar"> 
                             <div class="linhaCadastrar"></div>
-                            <h1>Cadastrar</h1>
+                            <a href="CadastroUser.html"><h1>Cadastrar</h1></a>
                         </div>
                     </button>
             
@@ -79,7 +100,7 @@
                         <div class="decoraçãoLogar">
                             <img id="Logarimg" src="../assets/login.png" alt="logar"> 
                             <div class="linhaLogar"></div>
-                            <h1>Logar</h1>
+                            <a href="telaLogin.html"><h1>Logar</h1></a>
                         </div>
                     </button>
                   

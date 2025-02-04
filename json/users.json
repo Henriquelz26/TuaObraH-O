@@ -1,0 +1,11 @@
+ [
+    {
+    "nome": "Fulano",
+    "senha": "123",
+    "email": "fulano@gmail.com",
+    "cpf": "12345678910",
+    "cidade": "Novo Hamburgo",
+    "endereco": "Rua Paraná, 54, bairro Boa Vista"
+
+}
+]
