@@ -179,6 +179,12 @@ main{
     
 }
 
+#infoUser ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8px 0px 0px 5px;
+    font-size: 22px;
+}
+
 /*Footer*/
 .foot{
     margin-top: 150px;

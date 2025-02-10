@@ -1,11 +1,14 @@
- [
-    {
-    "nome": "Fulano",
-    "senha": "123",
-    "email": "fulano@gmail.com",
-    "cpf": "12345678910",
-    "cidade": "Novo Hamburgo",
-    "endereco": "Rua Paraná, 54, bairro Boa Vista"
-
+{
+ "usuarios": [
+        
+        {
+            "nome": "João",
+            "senha": "123",
+            "email": "joaoribeiro@gmail.com",
+            "cidade": "Novo Hamburgo",
+            "endereco": "Rua Paraná, 54, bairro Boa Vista",
+            "descricao": "Sou João e estou procurando doação de materiais para concluir a construção da minha casa."
+        }
+       
+    ]
 }
-]
